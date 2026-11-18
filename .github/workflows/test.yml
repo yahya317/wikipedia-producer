@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     env:
       KAFKA_BROKER: 127.0.0.1:49092
     steps:
